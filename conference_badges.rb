@@ -17,7 +17,7 @@ def assign_rooms(attendees)
   #start a blank array to hold the message
   message = []
   #The room numbers are already defined in the room_assignment
-  attendees.index{ |attendees, index| message << "Hello, #{attendees}! You'll be assigned to room #{index}!"}
+  attendees.index{|attendees, index| message << "Hello, #{attendees}! You'll be assigned to room #{index}!"}
   return message
   end
 
